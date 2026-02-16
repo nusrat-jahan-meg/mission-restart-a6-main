@@ -10,3 +10,7 @@
     display: flex;
    
 }
+.active {
+  color: #1d4ed8; /* blue-700 */
+  font-weight: bold;
+}
