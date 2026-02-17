@@ -180,7 +180,7 @@ const loadTopRatedProducts = async () => {
   const res = await fetch("https://fakestoreapi.com/products");
   const products = await res.json();
 
-  // rating অনুযায়ী sort (high → low)
+  
   const sortedProducts = products.sort(
     (a, b) => b.rating.rate - a.rating.rate
   );
@@ -219,9 +219,7 @@ const displayTopProducts = (products) => {
 };
 
 loadTopRatedProducts();
-
-
 loadCategory();
 loadAllProducts();
-loadMenCollection();
+
 
