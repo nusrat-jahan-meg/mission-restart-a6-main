@@ -10,7 +10,14 @@
     display: flex;
    
 }
-.active {
-  color: #1d4ed8; /* blue-700 */
+
+
+.menu a:hover {
+  color: blue;
+}
+
+.menu a.active {
+  color: blue;
   font-weight: bold;
+ 
 }
