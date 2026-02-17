@@ -1,4 +1,4 @@
-live link:https://harmonious-toffee-1178da.netlify.app/
+
 
 1) What is the difference between null and undefined?
 Ans. Undefined:যখন কোনো variable value declare করা হয় না,
